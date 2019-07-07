@@ -68,7 +68,7 @@ the repo may contain one folder (the folder with the bot files, packaging.json a
 
 
 # packaging.json
-packaging.json is an slightly modified version of an repo entry. everything ouside the repos has veen cut out. testedVersion has veen replaced by botVersion below an example
+packaging.json is an slightly modified version of an repo entry. everything ouside the repos has been cut out. testedVersion has veen replaced by botVersion below an example
 
 ```json
 {
