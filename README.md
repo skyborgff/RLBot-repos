@@ -29,7 +29,7 @@ the repo may contain one folder (the folder with the bot files, packaging.json a
 }
 ```
 
-# Example (stablerepo)
+# repo example
 ```json
 {
     "note": "",
@@ -67,7 +67,7 @@ the repo may contain one folder (the folder with the bot files, packaging.json a
 ```
 
 
-# packaging.json
+# packaging.json example
 packaging.json is an slightly modified version of an repo entry. everything ouside the repos has been cut out. testedVersion has veen replaced by botVersion below an example
 
 ```json
