@@ -26,7 +26,7 @@ Just as now we can't garuanty safetyness when we will increase the amount of bot
 * Maintain an stableTrusted repo with tested bots where those bots are hosted on the rlbots github
 
 #### How are bots updated
-we will require the bots to have an packaging.json in the main folder of their bot, containing the bot info and other info (local botinfo so unlisted bots in development can be filtered locally with the listed bot if the user wants) what can be compared to the repo info (or i read packaging.json in that repo, not really sure yet). if the version is different the user can choose to update the bot.
+we will require the bots to have an packaging.json in the main folder of their bot, containing the bot info and other info (local botinfo so unlisted bots in development can be filtered locally with the listed bot if the user wants) what can be compared to the packaging.json in the provided repo. if the version is different the user can choose to update the bot.
 
 #### How do we make sure bots are working?
 we can't, just as now. as the game and rlbots are evolving compactabillity can not be guaranteed. We can probide stable bots in our stableTrusted repo and maintain it right by updating and testing, if needed dropping bots from stableTrusted when they aren't updated anymore and are not working correctly
