@@ -32,9 +32,31 @@ the repo may contain one folder (the folder with the bot files, packaging.json a
 ```
 
 
-# packaging.json example
-packaging.json is an slightly modified version of an repo entry. everything ouside the repos has been cut out. testedVersion has veen replaced by botVersion below an example. this file is to check updates and is to provide data for the local filter, so also unlisted packages can be filtered
+# packaging.json
+packaging.json contains the info about the bot and will async be downloaded if the github link to the bot is included in an activated repo
 
+```json
+{
+    "name": "should explain itself",
+    "url": "link to the branch. best practice: make an repo for each version",
+    "testedFrameworkVersion": "tested version of the framework",
+    "version": "version name",
+    "category": [
+        {
+            "name": "Category name"
+        },
+        {...}
+    ],
+    "gamemodes": [
+        {
+            "name": "gamemode name"
+        }
+        {...}
+    ] 
+}
+```
+
+# packaging.json example
 ```json
 {
     "name": "RLbotPythonDataParser",
