@@ -12,18 +12,6 @@ the repo may contain one folder (the folder with the bot files, packaging.json a
         {
             "name": "should explain itself",
             "url": "https link to repo for download",
-            "testedFrameworkVersion": "Latest framework version tested with, 0 if not tested or dev version",
-            "testedVersion": "Latest bot version tested with, 0 if not tested or dev version or no version is known. this is also used to check for updates. if 0 user cannot be prompted of updates",
-            "category": [
-                {
-                    "name": "name of bot categoty"
-                }
-            ],
-            "gamemodes": [
-                {
-                    "name": "gamemodes supported in lowercase, short notation for 1v1, 2v2, 3v3 and 4v4"
-                }
-            ]
         }
     ]
 }
@@ -36,34 +24,11 @@ the repo may contain one folder (the folder with the bot files, packaging.json a
     "repos":[
         {
             "name": "RLbotPythonDataParser",
-            "url": "https://github.com/ard1998/RLbotPythonDataParser.git",
-            "testedFrameworkVersion": "1.20",
-            "testedVersion": "1.0",
-            "category": [
-                {
-                    "name": "Example"
-                },
-                {
-                    "name": "Simple"
-                }
-            ],
-            "gamemodes": [
-                {
-                    "name": "1v1"
-                },
-                {
-                    "name": "2v2"
-                },
-                {
-                    "name": "3v3"
-                },
-                {
-                    "name": "4v4"
-                }
-            ] 
+            "url": "https://github.com/ard1998/RLbotPythonDataParser/tree/repo-test"
         }
     ]
 }
+
 ```
 
 
@@ -73,9 +38,9 @@ packaging.json is an slightly modified version of an repo entry. everything ousi
 ```json
 {
     "name": "RLbotPythonDataParser",
-    "url": "https://github.com/ard1998/RLbotPythonDataParser.git",
+    "url": "https://github.com/ard1998/RLbotPythonDataParser/tree/repo-test",
     "testedFrameworkVersion": "1.20",
-    "botVersion": "1.0",
+    "version": "1.0",
     "category": [
         {
             "name": "Example"
