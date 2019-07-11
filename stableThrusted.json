@@ -4,6 +4,7 @@
         {
             "name": "RLbotPythonDataParser",
             "url": "https://github.com/ard1998/RLbotPythonDataParser/tree/repo-test"
+            "branch": "repo-test"
         }
     ]
 }
