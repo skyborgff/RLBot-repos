@@ -25,7 +25,7 @@ the repo may contain one folder (the folder with the bot files, packaging.json a
     "repos":[
         {
             "name": "RLbotPythonDataParser",
-            "url": "https://github.com/ard1998/RLbotPythonDataParser/tree/repo-test"
+            "url": "https://github.com/ard1998/RLbotPythonDataParser",
             "branch": "repo-test"
         }
     ]
@@ -63,7 +63,7 @@ packaging.json contains the info about the bot and will async be downloaded if t
 {
     "name": "RLbotPythonDataParser",
     "url": "https://github.com/ard1998/RLbotPythonDataParser",
-    "branch": "repo-test"
+    "branch": "repo-test",
     "testedFrameworkVersion": "1.20",
     "version": "1.0",
     "category": [
