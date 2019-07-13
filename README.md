@@ -7,9 +7,9 @@ the repo may contain one folder (the folder with the bot files, packaging.json a
 # Syntax
 ```json
 {
-    "note": "Note when enabling the repo",
-    "repos":[
-        {
+	"note": "Note when enabling the repo",
+	"repos":[
+		{
 			"name": "should explain itself",
 			"url": "link to the branch. best practice: make an repo for each version",
 			"testedFrameworkVersion": "tested version of the framework",
@@ -27,16 +27,16 @@ the repo may contain one folder (the folder with the bot files, packaging.json a
 				{...}
 			] 
 		}
-    ]
+	]
 }
 ```
 
 # repo example
 ```json
 {
-    "note": "",
-    "repos":[
-        {
+	"note": "",
+	"repos":[
+		{
 			"name": "RLbotPythonDataParser",
 			"url": "https://github.com/ard1998/RLbotPythonDataParser",
 			"branch": "repo-test",
@@ -65,7 +65,7 @@ the repo may contain one folder (the folder with the bot files, packaging.json a
 				}
 			] 
 		}
-    ]
+	]
 }
 
 ```
