@@ -1,7 +1,7 @@
 {
-    "note": "",
-    "repos":[
-        {
+	"note": "",
+	"repos":[
+		{
 			"name": "RLbotPythonDataParser",
 			"url": "https://github.com/ard1998/RLbotPythonDataParser",
 			"branch": "repo-test",
@@ -30,5 +30,5 @@
 				}
 			] 
 		}
-    ]
+	]
 }
