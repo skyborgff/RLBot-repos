@@ -10,22 +10,22 @@ the repo may contain one folder (the folder with the bot files, packaging.json a
     "note": "Note when enabling the repo",
     "repos":[
         {
-		    "name": "should explain itself",
-		    "url": "link to the branch. best practice: make an repo for each version",
-		    "testedFrameworkVersion": "tested version of the framework",
-		    "version": "version name",
-		    "category": [
-		        {
-		            "name": "Category name"
-		        },
-		        {...}
-		    ],
-		    "gamemodes": [
-		        {
-		            "name": "gamemode name"
-		        }
-		        {...}
-		    ] 
+			"name": "should explain itself",
+			"url": "link to the branch. best practice: make an repo for each version",
+			"testedFrameworkVersion": "tested version of the framework",
+			"version": "version name",
+			"category": [
+				{
+					"name": "Category name"
+				},
+				{...}
+			],
+			"gamemodes": [
+				{
+					"name": "gamemode name"
+				}
+				{...}
+			] 
 		}
     ]
 }
@@ -37,33 +37,33 @@ the repo may contain one folder (the folder with the bot files, packaging.json a
     "note": "",
     "repos":[
         {
-		    "name": "RLbotPythonDataParser",
-		    "url": "https://github.com/ard1998/RLbotPythonDataParser",
-		    "branch": "repo-test",
-		    "testedFrameworkVersion": "1.20",
-		    "version": "1.0",
-		    "category": [
-		        {
-		            "name": "Example"
-		        },
-		        {
-		            "name": "Simple"
-		        }
-		    ],
-		    "gamemodes": [
-		        {
-		            "name": "1v1"
-		        },
-		        {
-		            "name": "2v2"
-		        },
-		        {
-		            "name": "3v3"
-		        },
-		        {
-		            "name": "4v4"
-		        }
-		    ] 
+			"name": "RLbotPythonDataParser",
+			"url": "https://github.com/ard1998/RLbotPythonDataParser",
+			"branch": "repo-test",
+			"testedFrameworkVersion": "1.20",
+			"version": "1.0",
+			"category": [
+				{
+					"name": "Example"
+				},
+				{
+					"name": "Simple"
+				}
+			],
+			"gamemodes": [
+				{
+					"name": "1v1"
+				},
+				{
+					"name": "2v2"
+				},
+				{
+					"name": "3v3"
+				},
+				{
+					"name": "4v4"
+				}
+			] 
 		}
     ]
 }
@@ -78,32 +78,32 @@ packaging.json contains the info about the bot and will be used for local filter
 # packaging.json example
 ```json
 {
-    "name": "RLbotPythonDataParser",
-    "url": "https://github.com/ard1998/RLbotPythonDataParser",
-    "branch": "repo-test",
-    "testedFrameworkVersion": "1.20",
-    "version": "1.0",
-    "category": [
-        {
-            "name": "Example"
-        },
-        {
-            "name": "Simple"
-        }
-    ],
-    "gamemodes": [
-        {
-            "name": "1v1"
-        },
-        {
-            "name": "2v2"
-        },
-        {
-            "name": "3v3"
-        },
-        {
-            "name": "4v4"
-        }
-    ] 
+	"name": "RLbotPythonDataParser",
+	"url": "https://github.com/ard1998/RLbotPythonDataParser",
+	"branch": "repo-test",
+	"testedFrameworkVersion": "1.20",
+	"version": "1.0",
+	"category": [
+		{
+			"name": "Example"
+		},
+		{
+			"name": "Simple"
+		}
+	],
+	"gamemodes": [
+		{
+			"name": "1v1"
+		},
+		{
+			"name": "2v2"
+		},
+		{
+			"name": "3v3"
+		},
+		{
+			"name": "4v4"
+		}
+	] 
 }
 ```
