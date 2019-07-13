@@ -10,10 +10,23 @@ the repo may contain one folder (the folder with the bot files, packaging.json a
     "note": "Note when enabling the repo",
     "repos":[
         {
-            "name": "should explain itself",
-            "url": "https link to repo for download",
-            "branch": "branch name"
-        }
+		    "name": "should explain itself",
+		    "url": "link to the branch. best practice: make an repo for each version",
+		    "testedFrameworkVersion": "tested version of the framework",
+		    "version": "version name",
+		    "category": [
+		        {
+		            "name": "Category name"
+		        },
+		        {...}
+		    ],
+		    "gamemodes": [
+		        {
+		            "name": "gamemode name"
+		        }
+		        {...}
+		    ] 
+		}
     ]
 }
 ```
@@ -24,10 +37,34 @@ the repo may contain one folder (the folder with the bot files, packaging.json a
     "note": "",
     "repos":[
         {
-            "name": "RLbotPythonDataParser",
-            "url": "https://github.com/ard1998/RLbotPythonDataParser",
-            "branch": "repo-test"
-        }
+		    "name": "RLbotPythonDataParser",
+		    "url": "https://github.com/ard1998/RLbotPythonDataParser",
+		    "branch": "repo-test",
+		    "testedFrameworkVersion": "1.20",
+		    "version": "1.0",
+		    "category": [
+		        {
+		            "name": "Example"
+		        },
+		        {
+		            "name": "Simple"
+		        }
+		    ],
+		    "gamemodes": [
+		        {
+		            "name": "1v1"
+		        },
+		        {
+		            "name": "2v2"
+		        },
+		        {
+		            "name": "3v3"
+		        },
+		        {
+		            "name": "4v4"
+		        }
+		    ] 
+		}
     ]
 }
 
@@ -35,28 +72,8 @@ the repo may contain one folder (the folder with the bot files, packaging.json a
 
 
 # packaging.json
-packaging.json contains the info about the bot and will async be downloaded if the github link to the bot is included in an activated repo
+packaging.json contains the info about the bot and will be used for local filtering. it is eaqual to an entity of the repo array of the repo file
 
-```json
-{
-    "name": "should explain itself",
-    "url": "link to the branch. best practice: make an repo for each version",
-    "testedFrameworkVersion": "tested version of the framework",
-    "version": "version name",
-    "category": [
-        {
-            "name": "Category name"
-        },
-        {...}
-    ],
-    "gamemodes": [
-        {
-            "name": "gamemode name"
-        }
-        {...}
-    ] 
-}
-```
 
 # packaging.json example
 ```json
