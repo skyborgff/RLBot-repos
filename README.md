@@ -1,4 +1,4 @@
-# RLBot repo donciderations
+# RLBot repo
 
 After some thinking i desided that multiple repolists would give us the abillity to offer solutions for all usecases. standard only the stableThrusted repo will be in the GUI, but for developers and testers there will be the option
 
