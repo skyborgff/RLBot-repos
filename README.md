@@ -10,7 +10,7 @@ the repo may contain one folder (the folder with the bot files, packaging.json a
 	"note": "Note when enabling the repo",
 	"repos":[
 		{
-			"name": "should explain itself",
+			"name": "name of botfolder",
 			"url": "link to the branch. best practice: make an repo for each version",
 			"testedFrameworkVersion": "tested version of the framework",
 			"version": "version name",
