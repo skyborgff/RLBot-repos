@@ -2,7 +2,7 @@
 
 After some thinking i desided that multiple repolists would give us the abillity to offer solutions for all usecases. standard only the stableThrusted repo will be in the GUI, but for developers and testers there will be the option
 
-the repo may contain one folder (the folder with the bot files, packaging.json added) github folders are allowed and will be ignored. files in the main folder will also be ignored.
+the content of the download folder in the head of the repo will be cloned to the bot folder
 
 # Syntax
 ```json
