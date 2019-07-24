@@ -37,7 +37,7 @@ the content of the download folder in the head of the repo will be cloned to the
 	"note": "",
 	"repos":[
 		{
-			"name": "RLbotPythonDataParser",
+			"name": "dataParse",
 			"url": "https://github.com/ard1998/RLbotPythonDataParser",
 			"branch": "repo-test",
 			"testedFrameworkVersion": "1.20",
@@ -62,6 +62,9 @@ the content of the download folder in the head of the repo will be cloned to the
 				},
 				{
 					"name": "4v4"
+				},
+				{
+					"name": "snowday"
 				}
 			] 
 		}
@@ -78,7 +81,7 @@ packaging.json contains the info about the bot and will be used for local filter
 # packaging.json example
 ```json
 {
-	"name": "RLbotPythonDataParser",
+	"name": "dataParse",
 	"url": "https://github.com/ard1998/RLbotPythonDataParser",
 	"branch": "repo-test",
 	"testedFrameworkVersion": "1.20",
@@ -103,6 +106,9 @@ packaging.json contains the info about the bot and will be used for local filter
 		},
 		{
 			"name": "4v4"
+		},
+		{
+			"name": "snowday"
 		}
 	] 
 }
