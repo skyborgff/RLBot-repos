@@ -19,8 +19,18 @@ the content of the download folder in the head of the repo will be cloned to the
 ```
 
 # repo example
-see stableThrusted.json
-
+```json
+{
+	"note": "",
+	"repos":[
+		{
+			"name": "dataParse",
+			"url": "https://github.com/ard1998/RLbotPythonDataParser",
+			"branch": "repo-test"
+		}
+	]
+}
+```
 
 # packaging.json syntax
 ```json
