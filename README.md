@@ -1,10 +1,8 @@
 # RLBot repo
 
-After some thinking i desided that multiple repolists would give us the abillity to offer solutions for all usecases. standard only the stableThrusted repo will be in the GUI, but for developers and testers there will be the option
+repo files, syntax, examples and instruction for interacting with or developing (for) the hub of rlbot 
 
-the content of the download folder in the head of the repo will be cloned to the bot folder
-
-# Syntax
+## Syntax
 ```json
 {
 	"note": "Note when enabling the repo",
@@ -18,7 +16,7 @@ the content of the download folder in the head of the repo will be cloned to the
 }
 ```
 
-# repo example
+## repo example
 ```json
 {
 	"note": "",
@@ -32,7 +30,7 @@ the content of the download folder in the head of the repo will be cloned to the
 }
 ```
 
-# packaging.json syntax
+## packaging.json syntax
 ```json
 {
 	"name": "name of botfolder",
@@ -57,7 +55,7 @@ the content of the download folder in the head of the repo will be cloned to the
 ```
 
 
-# packaging.json example
+## packaging.json example
 ```json
 {
 	"name": "dataParse",
