@@ -30,7 +30,7 @@ repo files, syntax, examples and instruction for interacting with or developing 
 }
 ```
 
-## packaging.json syntax
+## botpackage.json syntax
 ```json
 {
 	"name": "name of botfolder",
@@ -55,7 +55,7 @@ repo files, syntax, examples and instruction for interacting with or developing 
 ```
 
 
-## packaging.json example
+## botpackage.json example
 ```json
 {
 	"name": "dataParse",
