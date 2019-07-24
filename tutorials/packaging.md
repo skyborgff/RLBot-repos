@@ -2,4 +2,4 @@
 
 after creating the botit can be packaged. this can be done by writing packaging.json to the main folder of your bot, [readme.md](https://github.com/ard1998/RLBot-repos/blob/master/README.md) contains the syntax and an example for packaging.json
 
-for uploading to github. place your bot folder in an folder called "download" (without quotes). the maintainer needs to know the name of the botfolder (what will be used as botname), the repo link and the branch name.
+the maintainer needs to know the name of the botfolder (what will be used as botname), the repo link and the branch name.
