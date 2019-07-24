@@ -36,7 +36,7 @@ repo files, syntax, examples and instruction for interacting with or developing 
 	"name": "name of botfolder",
 	"url": "link to the branch. best practice: make an repo for each version",
 	"branch": "branch of the repo",
-	"version": "version name",
+	"version": "version name, if not equal to the installed version the hub shows an update is available",
 	"testedFrameworkVersion": "framework verion the bot is tested with",
 	"version": "version of the bot",
 	"category": [
