@@ -39,7 +39,7 @@ repo files, syntax, examples and instruction for interacting with or developing 
 	"version": "version name, if not equal to the installed version the hub shows an update is available",
 	"testedFrameworkVersion": "framework verion the bot is tested with",
 	"language": "language the bot uses for textoutput in chat or 3d space",
-	"botLanguage": "python",
+	"botLanguage": "programing language the bot is written in",
 	"gamemodes": [
 		{
 			"name": "gamemode name"
