@@ -11,7 +11,8 @@ repo files, syntax, examples and instruction for interacting with or developing 
 			"name": "name of botfolder",
 			"url": "link to the branch. best practice: make an repo for each version",
 			"branch": "branch of the repo"
-		}
+		},
+		{...}
 	]
 }
 ```
@@ -34,23 +35,23 @@ repo files, syntax, examples and instruction for interacting with or developing 
 ```json
 {
 	"name": "name of botfolder",
-	"url": "link to the branch. best practice: make an repo for each version",
-	"branch": "branch of the repo",
+	"description": "bot description",
 	"version": "version name, if not equal to the installed version the hub shows an update is available",
 	"testedFrameworkVersion": "framework verion the bot is tested with",
-	"version": "version of the bot",
-	"category": [
-		{
-			"name": "Category name"
-		},
-		{...}
-	],
+	"language": "language the bot uses for textoutput in chat or 3d space",
+	"botLanguage": "python",
 	"gamemodes": [
 		{
 			"name": "gamemode name"
 		}
 		{...}
-	] 
+	],
+	"categories": [
+		{
+			"name": "Category name"
+		},
+		{...}
+	]
 }
 ```
 
@@ -59,18 +60,11 @@ repo files, syntax, examples and instruction for interacting with or developing 
 ```json
 {
 	"name": "dataParse",
-	"url": "https://github.com/ard1998/RLbotPythonDataParser",
-	"branch": "repo-test",
-	"testedFrameworkVersion": "1.20",
+	"description": "dev example with parsed structure",
 	"version": "1.0",
-	"category": [
-		{
-			"name": "Example"
-		},
-		{
-			"name": "Simple"
-		}
-	],
+	"testedFrameworkVersion": "1.20",
+	"language": "english",
+	"botLanguage": "python",
 	"gamemodes": [
 		{
 			"name": "1v1"
@@ -87,6 +81,14 @@ repo files, syntax, examples and instruction for interacting with or developing 
 		{
 			"name": "snowday"
 		}
-	] 
+	],
+	"categories": [
+		{
+			"name": "Example"
+		},
+		{
+			"name": "Simple"
+		}
+	]
 }
 ```
