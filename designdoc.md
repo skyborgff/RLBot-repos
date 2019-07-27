@@ -11,7 +11,7 @@ I think that individual downloads are better then botpacks because of the follow
 repos needs to be maintained
 
 #### Also I'm confused at how it actually works on a meta level.
-the program will read repo files in json format form the saved repos, it defenes info for the hub page lile the repo link, the gamemodes the developer supports, etc. on cloning the github only the bot folder (contains packaging.json) will be downloaded to the bot folder and can be deleted with the hub if the user doesnt want it anymore.
+the program will read repo files in json format form the saved repos, it defenes info for the hub page lile the repo link, the gamemodes the developer supports, etc. on cloning the github only the bot folder (contains botpackage.json) will be downloaded to the bot folder and can be deleted with the hub if the user doesnt want it anymore.
 
 #### How is this implemenred in the GUI?
 new page alongside main.html what does execute the hub features.
