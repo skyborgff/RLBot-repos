@@ -3,7 +3,7 @@
 	"repos":[
 		{
 			"name": "dataParse",
-			"url": "https://github.com/ard19/RLbotPythonDataParser",
+			"url": "https://github.com/ard1998/RLbotPythonDataParser",
 			"branch": "repo-test"
 		}
 	]
