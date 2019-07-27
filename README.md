@@ -9,8 +9,7 @@ repo files, syntax, examples and instruction for interacting with or developing 
 	"repos":[
 		{
 			"name": "name of botfolder",
-			"url": "link to the branch. best practice: make an repo for each version",
-			"branch": "branch of the repo"
+			"url": "link to the branch or repo (if bot is in master)"
 		},
 		{...}
 	]
@@ -24,8 +23,7 @@ repo files, syntax, examples and instruction for interacting with or developing 
 	"repos":[
 		{
 			"name": "dataParse",
-			"url": "https://github.com/ard1998/RLbotPythonDataParser",
-			"branch": "repo-test"
+			"url": "https://github.com/ard1998/RLbotPythonDataParser"
 		}
 	]
 }
