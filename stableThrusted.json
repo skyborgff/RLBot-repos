@@ -4,6 +4,10 @@
 		{
 			"name": "dataParse",
 			"url": "https://github.com/ard1998/RLbotPythonDataParser"
+		},
+		{
+			"name": "Skybot",
+			"url": "https://github.com/skyborgff/Skybot.git"
 		}
 	]
 }
