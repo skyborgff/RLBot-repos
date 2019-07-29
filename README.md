@@ -36,7 +36,6 @@ repo files, syntax, examples and instruction for interacting with or developing 
 	"description": "bot description",
 	"version": "version name, if not equal to the installed version the hub shows an update is available",
 	"testedFrameworkVersion": "framework verion the bot is tested with",
-	"language": "language the bot uses for textoutput in chat or 3d space",
 	"botLanguage": "programing language the bot is written in",
 	"gamemodes": [
 		{
@@ -61,7 +60,6 @@ repo files, syntax, examples and instruction for interacting with or developing 
 	"description": "dev example with parsed structure",
 	"version": "1.0",
 	"testedFrameworkVersion": "1.20",
-	"language": "english",
 	"botLanguage": "python",
 	"gamemodes": [
 		{
